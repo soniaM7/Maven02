@@ -14,5 +14,8 @@ public class App
         
         Appli2 ob1 =new Appli2();
         System.out.println(ob1.demo());
+        
+        Appli3 ob2 =new Appli3();
+        System.out.println(ob2.data());
     }
 }
