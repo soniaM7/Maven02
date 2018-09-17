@@ -26,6 +26,7 @@ public class AppliTest extends TestCase {
     {
     	Appli ap =new Appli();
     	String r=ap.sample();
+    	System.out.println("This should print on git console.");
     	Assert.assertEquals("simple", r);
         
     }
