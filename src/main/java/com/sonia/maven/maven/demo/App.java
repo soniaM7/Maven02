@@ -11,5 +11,8 @@ public class App
         System.out.println( "Hello World!" );
         Appli ob=new Appli();
         System.out.println(ob.sample());
+        
+        Appli2 ob1 =new Appli2();
+        System.out.println(ob1.demo());
     }
 }
